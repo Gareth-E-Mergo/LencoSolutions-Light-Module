@@ -5,13 +5,15 @@ Have fun, maybe contribute and check out my site for the hardware: LencoSolution
 
 
 
-# Balance Buddy
+# Light module
 Arduino based accessory board for the balance app in BV's BLDC firmware.
 
 ## Features
 1. Directional LEDs for headlight/taillight with dimming, brake lights and knight rider animation
 1. Buzzer for dutycycle and low voltage warnings (maybe in the feature also temp. warnings)
-1. It uses CAN bus, so there are NO DOWNSIDES to adding it. JUST DO IT!
+1. It uses CAN bus, and can be used in paralel with VESC express and smart BMS devices
+1. Displays battery percentage (linear) based on voltage (can be activated with the footsensors also)
+1. Build in stepdown converter that is rated up 100 volt batteries
 
 ## Parts List
 LencoSolutions PCB
@@ -36,4 +38,4 @@ All the required libraries are included, just hit the upload button in Arduino I
 
 # Future plans
 1. VESC control over the settings like the color of the lights through can bus
-1. A battery indication over a LED bar/front LED in rest state
+1. A battery indication over a dedicated LED bar
